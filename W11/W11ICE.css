@@ -63,4 +63,12 @@
     border: none;
     width: 25px;
     align-items: center;
+    position: sticky;
+    left: 70rem;
+}
+#likes_text{
+    margin-left: 2em;
+    margin-top: -1em;
+    
+
 }
