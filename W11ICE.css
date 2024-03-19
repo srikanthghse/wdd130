@@ -30,7 +30,6 @@
 
 .timestamp {
     margin-left: auto;
-    margin-right: 5px;
 }
 
 .options {
@@ -38,7 +37,7 @@
     border: none;
     font-size: 18px;
     cursor: pointer;
-    transform: rotate(90deg);
+    transform: rotate(90deg); /* Rotate the three dots vertically */
 }
 
 /* Main image */
@@ -48,8 +47,8 @@
     margin-top: 10px;
 }
 
-/* Like, comment, social, and share buttons/icons */
-.actions button, .social-icon, .share-icon {
+/* Like and comment buttons */
+.actions button {
     background: none;
     border: none;
     padding: 5px;
