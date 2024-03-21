@@ -1,0 +1,116 @@
+/* This is the font for the links in the whole page */
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+/* Color for the links in all the pages: rgb(30 ,215 ,96) */
+/* Navbars background color background: rgba(25,20,20) */
+
+:root{
+    --green:rgb(30 ,215 ,96);
+    --black:rgb(25,20,20);
+    --bgcolor:#4d4855;
+    --bg_gradient:linear-gradient(147deg, #4d4855 0%, #000000 74%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background: var(--bgcolor);
+    background-image: var(--bg_gradient);
+}
+
+/* header - Open Here */
+header{
+    background:var(--black);
+    /* border: 2px solid black; */
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    /* height: 120%; */
+}
+.header-nav{
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+.header-nav-links{
+    text-decoration: none;
+    color: var(--green);
+    font-family: 'Holtwood One SC';
+    font-size: 125%;
+}
+.header-nav-links:hover{
+    color: white;
+}
+/* Header - Closing Here */
+
+
+footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 12vh;
+    border: 1px solid;
+    display: grid;
+    grid-template-rows: 100%;
+    z-index: 5;
+    /* justify-content: center; */
+    background-color: var(--black);
+}
+.footer-nav{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.img-logo{
+    width: 11vh;
+    border: .1em solid white;
+    border-radius: 100%;
+    object-fit: fill;
+}
+
+.terms-right-links{
+    font-size: .6em;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.terms-right-line{
+    font-size: .9em;
+    font-family: 'Times New Roman', Times, seriff;
+    color: white;
+    padding-bottom: .2em;
+}
+.terms-right-links:hover{
+    color:var(--green);
+}
+.footer-search{
+    width: 80%;
+    margin-right: .2em;
+    border-radius:1em ;
+    background-color:var(--green);
+    color: white;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    border: .2em black solid;
+    padding-left: 2em;
+    height: 2em;
+}
+/* 
+Navbar bottom color : #D8E9A8
+Navbar top color : #1E5128
+Buttons: #4E9F3D 
+*/

@@ -1,0 +1,15 @@
+main{
+    display: grid;
+    grid-template-rows: max-content max-content max-content;
+    border: 1px solid black;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#my-image{
+    width: 20%;
+}
+#main-image{
+    width: 50%;
+}
